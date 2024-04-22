@@ -1,0 +1,32 @@
+[
+  {
+    "pclass": 3.0,
+    "survived": 0.0,
+    "sex": "male",
+    "age": 40.5,
+    "sibsp": 0.0,
+    "parch": 0.0,
+    "fare": 15.1,
+    "embarked": "S"
+  },
+  {
+    "pclass": 1.0,
+    "survived": 1.0,
+    "sex": "female",
+    "age": 37.0,
+    "sibsp": 1.0,
+    "parch": 0.0,
+    "fare": 90.0,
+    "embarked": "Q"
+  },
+  {
+    "pclass": 3.0,
+    "survived": 0.0,
+    "sex": "female",
+    "age": 28.0,
+    "sibsp": 0.0,
+    "parch": 0.0,
+    "fare": 7.775,
+    "embarked": "S"
+  }
+]

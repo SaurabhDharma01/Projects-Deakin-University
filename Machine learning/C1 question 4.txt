@@ -1,0 +1,10 @@
+# Load the data from SCADI.csv
+data = pd.read_csv('SCADI.csv')
+
+# Exclude attributes 1, 2, and 206
+subgroup_data = data.iloc[:, 2:206]
+
+# Find unique rows (subgroups)
+num_subgroups = len(subgroup_data.drop_duplicates())
+
+print("Number of subgroups:", num_subgroups)
